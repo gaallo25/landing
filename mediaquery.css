@@ -1,0 +1,47 @@
+.container-banner-principal {
+  background-color: #082f23;
+  padding-bottom: 3rem;
+  overflow: hidden;
+  width: 100%;
+}
+.bannerPrincipal .banner {
+  /* max-width: 100%; */
+  width: 100%;
+  height: 278px;
+  object-fit: cover;
+}
+.container-logo .logo {
+  max-width: 40%;
+}
+.title-1 {
+  font-family: RobotoBlack;
+  color: white;
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+.title-2 {
+  font-family: roboto;
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 0.1rem;
+}
+.title-3 {
+  font-family: roboto;
+  color: white;
+  padding-top: 1rem;
+  font-size: 0.7rem;
+}
+element.style {
+  grid-template-columns: repeat(1, 80%);
+}
+.grid-tarjetas {
+  display: flex;
+  /* max-width: 1200px; */
+  grid-template-columns: repeat(3, 1fr);
+  /* row-gap: 58px; */
+  /* column-gap: 10px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin-top: 20px;
+  width: 600%;
+}

@@ -1,0 +1,428 @@
+@font-face {
+  font-family: RobotoBlack;
+  src: url(Roboto-Black.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Light.ttf);
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url(Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url(Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: HelveticaN;
+  src: url(Helvetica.ttf);
+}
+@font-face {
+  font-family: AvenirBlack;
+  src: url(Avenir-Black.otf);
+}
+@font-face {
+  font-family: BasisRegular;
+  src: url(BasisGrotesquePro-Regular.otf);
+}
+@font-face {
+  font-family: SailecRegular;
+  src: url(SailecRegular.otf);
+}
+@font-face {
+  font-family: AmsiBold;
+  src: url(AmsiProNarw-Bold.ttf);
+}
+@font-face {
+  font-family: AmsiLight;
+  src: url(AmsiProNarw-Light.ttf);
+}
+@font-face {
+  font-family: BasisBlack;
+  src: url(Basis\ Grotesque\ Pro\ Black.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.banner-form {
+  background-image: url(Bannerp.png);
+  background-size: 100%;
+  margin-top: 135px;
+}
+.banner {
+  display: flex;
+  height: 100%;
+}
+.equipo {
+  padding: 2rem 0px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "BasisBlack";
+  color: #66ad49;
+  background-image: url(Equipo.png);
+  background-size: 100%;
+}
+.title-curso {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roboto-regular {
+  font-family: RobotoRegular;
+}
+.card-aprendemos {
+  border-radius: 1rem;
+  position: relative;
+  padding: 0rem 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  background: white;
+}
+.title-dirigido {
+  font-family: BasisBlack;
+  font-size: 2rem;
+  margin-bottom: 13px;
+  color: #528e7a;
+}
+.dirigido-child {
+  display: flex;
+  gap: 15px;
+}
+.dirigido-child .descripcion {
+  font-family: RobotoRegular;
+}
+.dirigido-descripcion {
+  width: 70%;
+  color: #528e7a;
+  font-size: 1.2rem;
+}
+.form .descripcion {
+  text-align: center;
+  font-family: Roboto;
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.title-impacto {
+  font-family: BasisBlack;
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 3rem;
+  color: white;
+}
+.title-impacto p {
+  z-index: 98;
+  position: relative;
+}
+.container-tajeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  gap: 30px;
+  width: 22%;
+}
+.impacto {
+  background-color: #528e7a;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+}
+.grande {
+  width: 100%;
+  position: absolute;
+  top: -170px;
+}
+.pequeña {
+  display: none;
+}
+.contactanos {
+  display: flex;
+}
+.contactanos img {
+  max-height: 10%;
+}
+.flex-1 {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.flex-2 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+.container-title .flex-1 p {
+  font-size: 3rem;
+  padding: 60px 0px;
+  padding-left: 13px;
+}
+.container-title p {
+  color: #518a7a;
+}
+.flex-tarjetas {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-height: 100%;
+  z-index: 99;
+}
+.container-description {
+  display: flex;
+  justify-content: center;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  height: 45%;
+}
+.container-flex {
+  width: 100%;
+  display: flex;
+  max-width: 1600px;
+}
+.button-brochuer {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.brochuer {
+  margin: 0 auto;
+  padding: 20px 40px;
+  border-radius: 30px 0 30px 0;
+  border-style: none;
+  background-color: #082f24;
+  color: white;
+  cursor: pointer;
+  font-size: 18pt;
+  font-family: "BasisBlack";
+}
+.container-cards-aprendemos .title {
+  font-family: BasisBlack;
+  color: #082f24;
+  font-size: 1.1rem;
+  text-align: center;
+  height: 15%;
+}
+.container-cards-aprendemos .descripcion {
+  text-align: center;
+  font-family: roboto;
+  height: auto;
+  max-width: 90%;
+  margin: 2rem auto;
+  margin-bottom: 0px;
+  color: #082f23;
+  font-size: 1.1rem;
+  padding-bottom: 1.5rem;
+}
+.title-form {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.title-form .icon {
+  width: 20%;
+}
+.title-form .icon img {
+  width: 100%;
+}
+.title-form .title {
+  width: 60%;
+}
+.modalidad {
+  background-color: #528e7a;
+  padding-top: 1rem;
+  padding-bottom: 9rem;
+}
+.dirigido-a {
+  display: flex;
+  margin-top: 12rem;
+}
+.ods {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.icons-ods {
+  display: flex;
+  justify-content: space-between;
+}
+.icons-ods img {
+  max-width: 30%;
+}
+.descripcion-ods {
+  font-family: RobotoRegular;
+}
+.title-ods {
+  text-align: center;
+}
+.dirigido-icon {
+  width: 15%;
+}
+.dirigido-icon img {
+  width: 100%;
+}
+.dirigido {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+}
+.ods {
+  width: 50%;
+}
+.title-form {
+  display: flex;
+  justify-content: center;
+}
+.form {
+  max-width: 40% !important;
+  width: 80%;
+  border-radius: 35px;
+  background-color: #6da74e;
+  padding: 25px 12px;
+}
+.form-municipios {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 100%;
+}
+.title-curso .title-1 {
+  font-family: BasisBlack;
+  font-size: 5rem;
+}
+.title-curso .title-2 {
+  font-family: BasisBlack;
+  font-size: 6.5rem;
+}
+/* 
+
+
+
+
+
+
+
+*/
+.terminos {
+  appearance: none;
+  width: 60px;
+  height: 60px;
+}
+.terminos:checked {
+  background-image: url(check1.svg);
+  background-size: 60%;
+  background-position: 51%;
+  background-repeat: no-repeat;
+}
+div label {
+  font-family: RobotoRegular;
+  font-size: 1.5rem;
+  color: white;
+}
+/* 
+
+
+
+
+
+*/
+.form-municipios input {
+  margin-top: 10px;
+  background-color: transparent;
+  border-style: none;
+  border: 1px #082f24 solid;
+  border-radius: 35px 0 35px 0;
+  padding: 20px 25px;
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 1.1rem;
+}
+
+.form-municipios input::placeholder {
+  color: white;
+  font-family: RobotoRegular;
+  opacity: 0.5;
+}
+.form-curso {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-equipo .biografia {
+  padding: 1.5rem;
+  height: 60%;
+}
+.card-equipo .biografia p {
+  font-size: 1rem;
+}
+@media (max-width: 2500px) {
+  .dirigido-a {
+    display: flex;
+    margin-top: 0rem;
+  }
+  .form-municipios input {
+    padding: 10px 15px;
+  }
+  .title-curso .title-1 {
+    font-size: 3rem !important;
+  }
+  .title-curso .title-2 {
+    font-family: BasisBlack;
+    font-size: 4.5rem;
+  }
+  .terminos {
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 13px 0 13px 0 !important;
+  }
+  .impacto {
+    padding-top: 2rem;
+  }
+  .title-impacto {
+    padding-top: 0rem;
+  }
+  .grande {
+    top: -100px;
+  }
+  .form {
+    max-width: 80% !important;
+    width: 80%;
+
+    background-color: #6da74e;
+    padding: 35px 12px;
+  }
+  /* .pequeña {
+    position: absolute;
+    top: -160px;
+    display: block;
+  } */
+  .grande {
+    display: block;
+  }
+}
+@media (max-width: 1024px) {
+  .modalidad {
+    overflow: hidden;
+  }
+}

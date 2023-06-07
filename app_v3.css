@@ -1,0 +1,1277 @@
+@font-face {
+  font-family: RobotoBlack;
+  src: url(Roboto-Black.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto-Light.ttf);
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url(Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url(Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: HelveticaN;
+  src: url(Helvetica.ttf);
+}
+@font-face {
+  font-family: AvenirBlack;
+  src: url(Avenir-Black.otf);
+}
+@font-face {
+  font-family: BasisRegular;
+  src: url(BasisGrotesquePro-Regular.otf);
+}
+@font-face {
+  font-family: SailecRegular;
+  src: url(SailecRegular.otf);
+}
+@font-face {
+  font-family: AmsiBold;
+  src: url(AmsiProNarw-Bold.ttf);
+}
+@font-face {
+  font-family: AmsiLight;
+  src: url(AmsiProNarw-Light.ttf);
+}
+@font-face {
+  font-family: BasisBlack;
+  src: url(Basis\ Grotesque\ Pro\ Black.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bannerPrincipal {
+  position: relative;
+}
+
+.button-crecimiento-personal {
+  width: 300px;
+  padding: 1rem 0px;
+  border-radius: 30px;
+  border: 3px solid #85c14c;
+  color: #85c14c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.whatsapp-icon-container {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  right: 20px; /* Ajusta la distancia desde la parte derecha según tus necesidades */
+  z-index: 9999; /* Ajusta el valor del índice z si es necesario */
+  width: 70px;
+  height: 70px;
+}
+.whatsapp-icon-container img {
+  width: 100%;
+}
+.container-tajeta {
+}
+.camposFormulario button {
+  background-color: #50af7e;
+  border: none;
+  padding: 4%;
+  width: 50%;
+  border-radius: 22px;
+  font-family: "BasisBlack";
+  color: #082f24;
+  font-size: 1.1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.caja-hoja {
+  width: 100%;
+  height: 150px;
+  border-radius: 35px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.caja-hoja p {
+  font-size: 1.5rem;
+}
+.container-cards-crecimiento {
+  margin-left: auto;
+  max-width: 1200px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 12rem;
+  margin-right: auto;
+}
+.container-banner-principal {
+  background-color: #082f23;
+  padding-bottom: 8rem;
+}
+.container-components {
+  margin-left: 15%;
+  display: flex;
+  margin-bottom: 12%;
+  justify-content: space-between;
+  position: relative;
+}
+.mantra {
+  width: 100%;
+  background: #50af7e;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 71px 0 0 0;
+  padding: 5rem 0;
+  padding-left: 3rem;
+}
+.mision {
+  max-width: 70%;
+}
+.container-mision {
+  max-width: 100%;
+  width: 100%;
+  gap: 100px;
+  display: flex;
+}
+.container-mision-vision {
+  max-width: 50%;
+  width: 50%;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.container-mision-vision img {
+  width: 100%;
+}
+.container-logo {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 78px;
+}
+.container-logo .logo {
+  max-width: 28%;
+}
+.container-tajeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  gap: 30px;
+}
+.container-tajeta p {
+  color: white;
+  max-width: 80%;
+  text-align: center;
+  font-family: RobotoRegular;
+  font-size: 1.1rem;
+}
+.container-cards-equipo {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  row-gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.container-equipo {
+  background-image: url(fotofooter.webp);
+  background-size: 160%;
+  position: relative;
+  overflow: hidden;
+}
+.card-equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 24%;
+}
+.card-equipo .foto {
+  width: 130px;
+  height: 150px;
+  background-color: white;
+
+  border-radius: 75px 0 85px 0;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.card-equipo .biografia {
+  width: 100%;
+  z-index: 2;
+  background-color: #009a79;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 2rem;
+  height: 50%;
+}
+.card-equipo .biografia p {
+  font-family: Roboto;
+  text-align: center;
+  font-size: 1.1rem;
+  color: white;
+}
+.card-equipo .nombre {
+  width: 100%;
+  height: 15%;
+  background-color: #14ba7c;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 0 20px 0;
+}
+.profesion {
+  font-family: BasisBlack;
+  font-size: 1.1rem;
+  color: white;
+}
+.card-equipo .nombre p {
+  font-family: BasisBlack;
+  font-size: 1.1rem;
+  color: white;
+}
+.card-equipo .foto img {
+  max-width: 100%;
+}
+.card-equipo .nombre img {
+  max-width: 9%;
+  margin-left: 20px;
+}
+/* .container-equipo img {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+} */
+.container-cards-aprendemos {
+  margin: 0px auto;
+  margin-top: 5rem;
+  gap: 10px;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+}
+.equipo {
+  padding: 32px 0px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "BasisBlack";
+  color: #66ad49;
+}
+.ocultar {
+  display: none;
+}
+.tamano {
+  max-height: 50%;
+}
+.container-formulario {
+  background-color: #50af7e;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-bottom: 6rem;
+}
+.formulario {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  border-radius: 3rem;
+}
+.camposFormulario {
+  display: flex;
+  height: 55px;
+}
+.camposFormulario label {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  font-family: BasisBlack;
+  font-size: 1.1rem;
+  color: #082f24;
+}
+.container-equipo .container-svg img {
+  margin-top: -5.5rem;
+}
+.titulo-p {
+  margin-top: 2rem;
+  font-family: "BasisBlack";
+  font-size: 2.4rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.camposFormulario input {
+  width: 70%;
+  background-color: #50af7e;
+  border-style: none;
+  border: none;
+  border-radius: 35px 0 35px 0;
+  padding-left: 25px;
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 1.1rem;
+}
+.modelo-formativo .circulos-carrusel .circulos {
+  border: 3px solid #082f24;
+}
+form {
+  padding: 2rem 0;
+  max-width: 70%;
+  width: 100%;
+  max-width: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.leaf-components {
+  max-width: 50%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: -25%;
+  /* height: 620px;
+  background-color: #50b37e;
+  border-radius: 433px 0 240px 0; */
+}
+.leaf-components img {
+  max-width: 100%;
+  width: 100%;
+  /* height: 620px;
+  background-color: #50b37e;
+  border-radius: 433px 0 240px 0; */
+}
+.container-cards-aprendemos .title {
+  font-family: BasisBlack;
+  color: #082f24;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.container-cards-aprendemos .descripcion {
+  text-align: center;
+  font-family: roboto;
+  height: 50%;
+  max-width: 90%;
+  margin: 2rem auto;
+  color: #082f23;
+  font-size: 1.1rem;
+}
+.flex-1 {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.flex-2 {
+  width: 60%;
+  display: flex;
+}
+.container-components-movil {
+  display: none;
+}
+.card-aprendemos {
+  border-radius: 1rem;
+  position: relative;
+  padding: 2rem 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+  background: white;
+}
+.card-aprendemos img {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -31%;
+  margin-bottom: 10%;
+}
+.flecha-derecha {
+  display: none;
+}
+.flecha-izquierda {
+  display: none;
+}
+.container-como-aprendemos {
+}
+.svg1 {
+  margin-top: -15%;
+  fill: #082f24;
+  max-width: 100%;
+  width: 100%;
+}
+.svg2 {
+  fill: #082f24;
+  max-width: 100%;
+  width: 100%;
+}
+.container-objetivos {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  position: relative;
+  background-color: #082f23;
+}
+.container-title {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  background: white;
+  border-radius: 30px 0 30px 0;
+}
+.container-title img {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  max-height: 50%;
+}
+.container-title p {
+  color: #082f24;
+  font-family: BasisBlack;
+  text-align: center;
+  max-width: 80%;
+  font-size: 1.4rem;
+  margin-left: 17px;
+}
+.container-description {
+  display: flex;
+  justify-content: center;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  height: 50%;
+}
+.container-description p {
+  color: #082f23;
+}
+.container-objetivos img {
+  position: absolute;
+  width: 100%;
+  top: -10%;
+  z-index: 1;
+}
+.container-como-aprendemos .parrafo {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 1.2rem;
+  font-family: BasisBlack;
+}
+.circulos-carrusel {
+  display: none;
+}
+.circulos-carrusel-pc {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
+}
+.circulos-carrusel-pc .circulos {
+  width: 15px;
+  height: 15px;
+  background: rgb(250, 250, 250);
+  border-radius: 10px;
+  border: none;
+}
+.container-objetivos p {
+  color: white;
+  font-family: BasisBlack;
+  font-size: 3rem;
+}
+.card-crecimiento {
+  width: 371px;
+  background-color: white;
+  height: 400px;
+  border-radius: 120px 40px 40px 40px;
+  position: relative;
+  box-shadow: 0px 3px 0px 1px #ccc;
+}
+.descripcion-mision {
+  font-size: 1.1rem;
+}
+.container-equipo .circulos-carrusel .circulos {
+  border: 3px solid #082f23;
+}
+.container-components-movil .circulos-carrusel .circulos {
+  border: 3px solid #082f23;
+}
+.container-flex {
+  width: 200%;
+  display: flex;
+}
+.flex-tarjetas {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-height: 100%;
+}
+.grid-tarjetas {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  overflow: hidden;
+}
+.info-crecimiento {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 200px;
+}
+.items-objetivos {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.items-objetivos div {
+  width: 24%;
+}
+.modelo .leaf {
+  width: 20%;
+  height: 90px;
+  background-color: #50b37e;
+  border-radius: 50px 0 50px 0;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+.grid-tarjetas-movil {
+  display: none;
+}
+.leaf-crecimiento {
+  width: 100%;
+  height: 370px;
+
+  background-size: 240%;
+  background-position: 55% 80%;
+  border-radius: 200px 0 200px 0;
+  position: absolute;
+  top: -195px;
+}
+.modelo-formativo {
+  background-color: #f2f2f2;
+  padding-top: 12%;
+}
+.mt-y-2 {
+  margin: 2rem 0;
+}
+.pt4 {
+  padding-top: 4rem;
+  display: block;
+}
+.p14 {
+  text-align: center;
+  color: black;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-family: Roboto;
+}
+.pad50 {
+  padding: 50px 15px;
+  padding-top: -0px;
+}
+.pad-x-15 {
+  padding: 0px 15px;
+}
+.white {
+  color: white;
+}
+.container-objetivos .numero-objetivo {
+  font-size: 5rem;
+}
+.complemento-formulario {
+  position: absolute;
+  height: 39px;
+  width: 100%;
+  top: -26px;
+  background-color: #50af7e;
+}
+.objetivos {
+  width: 100%;
+  text-align: center;
+  max-width: 1200px;
+  padding: 0px 10px;
+  z-index: 3;
+  margin-top: 8%;
+}
+.texto-crecimiento {
+  text-align: center;
+  font-family: Roboto;
+  color: #706f6f;
+
+  font-size: 1.1rem;
+}
+.title-mision {
+  font-family: BasisBlack;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.leaf-components {
+  max-width: 50%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: -60%;
+}
+.titulo-crecimiento {
+  text-align: center;
+  margin-bottom: 1.2rem;
+  font-family: BasisBlack;
+  font-weight: 900;
+  font-size: 1.1rem;
+  color: #082f24;
+}
+.parrafoBanner {
+  text-align: center;
+  font-family: RobotoRegular;
+  color: white;
+  padding-top: 100px;
+  position: relative;
+  z-index: 3;
+  font-size: 1.1rem;
+}
+.title-1 {
+  font-family: BasisBlack;
+  color: white;
+  font-size: 3.2rem;
+  padding-top: 2rem;
+}
+.title-2 {
+  font-family: roboto;
+  color: white;
+  font-size: 1.8rem;
+  padding-top: 0rem;
+}
+.title-3 {
+  font-family: roboto;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 4rem;
+}
+.title-como-aprendemos {
+  font-family: BasisBlack;
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 3rem;
+  color: white;
+}
+.circulos-carrusel-movil {
+  display: none;
+}
+.bannerPrincipal .banner {
+  max-width: 100%;
+  width: 100%;
+  height: 800px;
+  opacity: 0.75;
+}
+@media (max-width: 2500px) {
+  .leaf-components {
+    max-width: 50%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: -30%;
+  }
+  .modelo-formativo {
+    background-color: #f2f2f2;
+    padding-top: 9%;
+  }
+  .container-objetivos img {
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    z-index: 1;
+  }
+  .container-cards-equipo {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1400px) {
+  .modelo-formativo {
+    padding-top: 12%;
+  }
+  .mantra {
+    width: 100%;
+    background: #50af7e;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 71px 0 0 0;
+    padding: 3rem 0;
+    padding-left: 3rem;
+  }
+  .leaf-components {
+    max-width: 50%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: -25%;
+  }
+  .grid-tarjetas {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+  }
+  .container-components {
+    margin-left: 15%;
+    display: flex;
+    margin-bottom: 6%;
+    justify-content: space-between;
+    position: relative;
+  }
+  .container-mision-vision {
+    max-width: 50%;
+    width: 50%;
+    gap: 39px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .grid-tarjetas {
+  }
+  .bannerPrincipal .banner {
+    max-width: 100%;
+    width: 100%;
+    height: 600px;
+  }
+}
+@media (max-width: 1024px) {
+  .container-banner-principal {
+    background-color: #082f23;
+
+    padding-bottom: 3rem;
+    overflow: hidden;
+    width: 100%;
+  }
+  .container-equipo .container-svg img {
+    margin-top: -2.5rem;
+  }
+  .container-mision-vision {
+    max-width: 200%;
+    width: 200%;
+    gap: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+  }
+  .container-objetivos .numero-objetivo {
+    font-size: 3rem;
+  }
+  .mantra {
+    width: 100%;
+    background: #50af7e;
+    height: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 71px 0 0 0;
+    padding: 3rem 0;
+    margin-top: 63px;
+    padding-left: 3rem;
+  }
+  .complemento-formulario {
+    position: absolute;
+    height: 39px;
+    width: 100%;
+    top: -15px;
+    background-color: #50af7e;
+  }
+  .card-aprendemos {
+    border-radius: 1rem;
+    position: relative;
+    padding: 2rem 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0px 100px;
+    background: white;
+  }
+  .card-aprendemos img {
+    transform: translateX(-50%);
+    width: 17%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-top: -97px; */
+    /* margin-bottom: 10%; */
+    position: absolute;
+    top: 108px;
+    left: 50%;
+  }
+  .container-objetivos {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    position: relative;
+    background-image: url(fondoobjetivos.webp);
+    background-size: 280%;
+  }
+  .container-cards-equipo {
+    max-width: 500%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 0rem;
+    height: 100%;
+    width: 500%;
+    flex-wrap: nowrap;
+    justify-content: none;
+  }
+  .container-objetivos img {
+    display: none;
+  }
+  .card-equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-width: 53%; */
+    width: 100%;
+    margin: 20px;
+  }
+
+  .pad-x-15 {
+    padding: 0px 15px;
+  }
+  .bannerPrincipal .banner {
+    width: 100%;
+    height: 456px;
+    object-fit: cover;
+  }
+  .container-logo {
+    padding-top: 23px;
+  }
+  .container-logo .logo {
+    max-width: 60%;
+  }
+  .container-tajeta {
+    margin: 20px;
+    padding: 0px 50px;
+    width: 100%;
+    max-height: 100%;
+  }
+  .container-objetivos p {
+    font-size: 2rem;
+  }
+  .container-components,
+  .container-components-movil {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15%;
+    justify-content: space-between;
+    position: initial;
+    overflow: hidden;
+  }
+  .container-components {
+    display: none !important;
+  }
+  .leaf {
+    width: 20%;
+    height: 90px;
+    background-color: #50b37e;
+    border-radius: 50px 0 50px 0;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+  }
+  .leaf-components {
+    max-width: 50%;
+    width: 100%;
+    position: initial;
+    right: 0;
+    top: -25%;
+  }
+  .circulos-carrusel {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .circulos-carrusel-pc {
+    display: none;
+  }
+  .circulos-carrusel-movil {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .circulos {
+    width: 15px;
+    height: 15px;
+    background: rgb(250, 250, 250);
+    border-radius: 10px;
+    border: none;
+  }
+  .items-objetivos {
+    flex-wrap: wrap;
+  }
+  .items-objetivos div {
+    width: 50%;
+  }
+  .flecha-derecha {
+    position: absolute;
+    top: 88%;
+    font-size: 2rem;
+    color: red;
+    display: block;
+    left: 90%;
+  }
+  .flecha-izquierda {
+    position: absolute;
+    top: 88%;
+    font-size: 2rem;
+    color: red;
+    display: block;
+    left: 2%;
+  }
+  .container-cards-aprendemos {
+    margin-top: 5rem;
+    gap: 0px;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    width: 500%;
+  }
+
+  .texto-crecimiento {
+    font-size: 1.1rem;
+  }
+  .parrafoBanner {
+    text-align: center;
+    font-family: roboto;
+    color: white;
+    padding-top: 20px;
+  }
+  .title-como-aprendemos {
+    font-family: BasisBlack;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: white;
+  }
+  .modelo-formativo {
+    overflow: hidden;
+  }
+  .container-cards-crecimiento {
+    max-width: none;
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    margin-top: 12rem;
+
+    width: 300%;
+  }
+  .card-crecimiento {
+    width: 100%;
+    margin: 80px;
+  }
+  .title-1 {
+    font-family: RobotoBlack;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+  .title-2 {
+    font-family: roboto;
+    color: white;
+    font-size: 1rem;
+    padding-top: 0.1rem;
+  }
+  .title-3 {
+    font-family: roboto;
+    color: white;
+    padding-top: 1rem;
+    font-size: 0.6rem;
+  }
+  element.style {
+    grid-template-columns: repeat(1, 80%);
+  }
+  .container-como-aprendemos {
+    overflow: hidden;
+  }
+  .grid-tarjetas {
+    display: none;
+  }
+  .grid-tarjetas-movil {
+    display: flex;
+    max-width: 600%;
+    grid-template-columns: repeat(3, 1fr);
+    /* row-gap: 58px; */
+    column-gap: 0px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-top: 20px;
+    width: 600%;
+  }
+  .parrafoBanner {
+    text-align: center;
+    font-family: roboto;
+    color: white;
+    padding: 40px;
+  }
+  .container-mision {
+    max-width: 100%;
+    width: 100%;
+    gap: 0px;
+    display: flex;
+  }
+}
+@media (max-width: 600px) {
+  .container-tajeta {
+    margin: 0px 20px;
+    padding: 0px 10px;
+    width: 15%;
+  }
+  /* .tamano {
+    width: 50px;
+    height: 50px;
+  } */
+  .titulo-p {
+    margin-top: 2rem;
+    font-family: "BasisBlack";
+    font-size: 1.4rem;
+    color: white;
+  }
+  .container-equipo .container-svg img {
+    margin-top: -0.5rem;
+  }
+  .card-aprendemos {
+    border-radius: 1rem;
+    position: relative;
+    padding: 2rem 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0px 20px;
+    background: white;
+  }
+  .card-aprendemos img {
+    transform: translateX(-50%);
+    width: 20%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-top: -97px; */
+    /* margin-bottom: 10%; */
+    position: absolute;
+    top: 67px;
+    left: 50%;
+  }
+  .card-crecimiento {
+    width: 100%;
+    margin: 10px;
+  }
+  .container-objetivos .numero-objetivo {
+    font-size: 2rem;
+  }
+  .camposFormulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+  .camposFormulario input {
+    width: 100%;
+    background-color: #50af7e;
+    border-style: none;
+    border: none;
+    border-radius: 35px 0 35px 0;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+  }
+  .container-equipo {
+    background-image: url(fotofooter.webp);
+    background-size: 262%;
+    position: relative;
+    overflow: hidden;
+  }
+  .container-formulario > p {
+    margin-top: 4rem;
+    font-family: BasisBlack;
+    font-size: 1.1rem;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+  }
+  .container-components {
+    display: none;
+  }
+  .formulario p {
+    font-family: BasisBlack;
+    font-size: 1.1rem;
+    color: #082f24;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  .camposFormulario label {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    font-family: BasisBlack;
+    font-size: 1.1rem;
+    color: #082f24;
+  }
+  form {
+    padding: 2rem 0;
+    max-width: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .container-tajeta p {
+    max-width: 100%;
+  }
+  .container-como-aprendemos .parrafo {
+    max-width: 90%;
+  }
+  .parrafoBanner {
+    text-align: center;
+    font-family: roboto;
+    color: white;
+    padding: 20px;
+  }
+  .bannerPrincipal .banner {
+    width: 100%;
+    height: 321px;
+    object-fit: cover;
+  }
+  .container-logo .logo {
+    max-width: 70%;
+  }
+  .modelo-formativo .circulos-carrusel .circulos {
+    background-color: #fff;
+    border: 3px solid #082f23;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    /* border: none; */
+    /* background-color: #082f23; */
+  }
+  .formulario {
+    max-width: 95%;
+  }
+  .container-mision-vision {
+    max-width: 200%;
+    width: 200%;
+    gap: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    /* position: relative; */
+  }
+  .container-mision {
+    max-width: 100%;
+    width: 100%;
+    gap: 0px;
+    display: flex;
+  }
+  .leaf-components {
+    max-width: 50%;
+    width: 100%;
+    position: initial;
+    right: 0;
+    top: -25%;
+  }
+  .mision {
+    max-width: 80%;
+    text-align: center;
+  }
+  .title-mision {
+    font-family: BasisBlack;
+    font-size: 8pt;
+    margin-bottom: 0.5rem;
+  }
+
+  .descripcion-mision {
+    font-family: Roboto;
+    width: 113%;
+    font-size: 8pt;
+  }
+  .mantra {
+    width: 95%;
+    background: #50af7e;
+    height: auto;
+    display: flex;
+    font-size: 8p;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 71px 0 0 0;
+    padding: 10px 0;
+    padding-left: 2rem;
+    margin-left: auto;
+    margin-top: 12%;
+  }
+  .mantra p {
+    font-family: Roboto;
+    color: white;
+    font-size: 8pt;
+  }
+  .leaf-components {
+    margin-top: 10px;
+  }
+}

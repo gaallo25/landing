@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="header.css">
+</head>
+<body>
+  <header>
+    <div class="contactanos">
+      <p>Contactanos +51 992209139</p>
+    </div>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a href="#">Logo</a>
+      </div>
+      <div class="navbar-menu" id="navbarMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#">Programas</a></li>
+          <li class="nav-item"><a href="#">Modelo Formativo</a></li>
+          <li class="nav-item"><a href="#">Impacto</a></li>
+          <li class="nav-item"><a href="#">Misión</a></li>
+          <li class="nav-item"><a href="#">Visión</a></li>
+          <li class="nav-item"><a href="#">Equipo</a></li>
+        </ul>
+      </div>
+      <div class="hamburger-menu" id="hamburgerMenu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Aquí va el contenido del resto de tu página -->
+  
+  <script>
+    const hamburgerMenu = document.getElementById('hamburgerMenu');
+const navbarMenu = document.getElementById('navbarMenu');
+
+hamburgerMenu.addEventListener('click', function() {
+  navbarMenu.classList.toggle('active');
+});
+
+  </script>
+</body>
+</html>
