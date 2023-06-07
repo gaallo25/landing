@@ -403,7 +403,7 @@ div label {
     padding-top: 0rem;
   }
   .grande {
-    top: -100px;
+    top: -200px;
   }
   .form {
     max-width: 80% !important;
@@ -424,5 +424,54 @@ div label {
 @media (max-width: 1024px) {
   .modalidad {
     overflow: hidden;
+    padding-bottom: 1rem;
+  }
+  .container-cards-equipo {
+    width: 400%;
+  }
+  .title-impacto p {
+    font-size: 2rem;
+  }
+  .equipo {
+    overflow: hidden;
+  }
+  .flex-tarjetas {
+    width: 400%;
+  }
+  .container-title {
+    width: 55%;
+    padding: 15px 0px;
+  }
+  .grande {
+    display: none;
+  }
+  .container-tajeta {
+    width: 100%;
+  }
+  .impacto {
+    overflow: hidden;
+  }
+  .card-aprendemos img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -32%;
+    margin-bottom: 10%;
+    width: 22%;
+  }
+  .card-aprendemos {
+    width: 100%;
+    padding-top: 50px;
+    margin: 0px 250px;
+  }
+  .circulos-carrusel {
+    margin-top: 34px;
+  }
+  .container-cards-aprendemos {
+    margin-top: 5rem;
+    gap: 0px;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    width: 400%;
   }
 }
